@@ -15,7 +15,7 @@ namespace API.Data.Configurations
                     Id = 1,
                     FirstName = "John",
                     LastName = "Doe",
-                    PhoneNumber = "555-7777",
+                    PhoneNumber = "+998901234567",
                     Email = "john.doe@example.com",
                     BirthDate = new DateTime(1975, 8, 20)
                 },
@@ -24,25 +24,25 @@ namespace API.Data.Configurations
                     Id = 2,
                     FirstName = "Jane",
                     LastName = "Smith",
-                    PhoneNumber = "555-8888",
+                    PhoneNumber = "+998912345678",
                     Email = "jane.smith@example.com",
-                    BirthDate = new DateTime(1980, 9, 15)
+                    BirthDate = new DateTime(1940, 9, 15)
                 },
                 new Teacher
                 {
                     Id = 3,
                     FirstName = "Robert",
                     LastName = "Johnson",
-                    PhoneNumber = "555-9999",
+                    PhoneNumber = "+998933456789",
                     Email = "robert.johnson@example.com",
-                    BirthDate = new DateTime(1985, 10, 10)
+                    BirthDate = new DateTime(1955, 10, 10)
                 },
                 new Teacher
                 {
                     Id = 4,
                     FirstName = "Emily",
                     LastName = "Davis",
-                    PhoneNumber = "555-1010",
+                    PhoneNumber = "+998944567890",
                     Email = "emily.davis@example.com",
                     BirthDate = new DateTime(1990, 11, 5)
                 },
@@ -51,7 +51,7 @@ namespace API.Data.Configurations
                     Id = 5,
                     FirstName = "Michael",
                     LastName = "Wilson",
-                    PhoneNumber = "555-2020",
+                    PhoneNumber = "+998955678901",
                     Email = "michael.wilson@example.com",
                     BirthDate = new DateTime(1995, 12, 1)
                 },
@@ -60,7 +60,7 @@ namespace API.Data.Configurations
                     Id = 6,
                     FirstName = "Sarah",
                     LastName = "Taylor",
-                    PhoneNumber = "555-3030",
+                    PhoneNumber = "+998966789012",
                     Email = "sarah.taylor@example.com",
                     BirthDate = new DateTime(2000, 1, 20)
                 },
@@ -69,7 +69,7 @@ namespace API.Data.Configurations
                     Id = 7,
                     FirstName = "David",
                     LastName = "Brown",
-                    PhoneNumber = "555-4040",
+                    PhoneNumber = "+998977890123",
                     Email = "david.brown@example.com",
                     BirthDate = new DateTime(1978, 2, 25)
                 },
@@ -78,7 +78,7 @@ namespace API.Data.Configurations
                     Id = 8,
                     FirstName = "Laura",
                     LastName = "Miller",
-                    PhoneNumber = "555-5050",
+                    PhoneNumber = "+998988901234",
                     Email = "laura.miller@example.com",
                     BirthDate = new DateTime(1982, 3, 15)
                 },
@@ -87,7 +87,7 @@ namespace API.Data.Configurations
                     Id = 9,
                     FirstName = "James",
                     LastName = "Wilson",
-                    PhoneNumber = "555-6060",
+                    PhoneNumber = "+998999012345",
                     Email = "james.wilson@example.com",
                     BirthDate = new DateTime(1987, 4, 10)
                 },
@@ -96,7 +96,7 @@ namespace API.Data.Configurations
                     Id = 10,
                     FirstName = "Olivia",
                     LastName = "Moore",
-                    PhoneNumber = "555-7070",
+                    PhoneNumber = "+998901234567",
                     Email = "olivia.moore@example.com",
                     BirthDate = new DateTime(1992, 5, 5)
                 }

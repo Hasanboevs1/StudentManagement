@@ -11,8 +11,10 @@ public class MappingProfile : Profile
     public MappingProfile()
     {
         CreateMap<Student, StudentDTO>().ReverseMap();
-        CreateMap<StudentCreateDTO, Student>();
-        CreateMap<StudentUpdateDTO, Student>();
+        //CreateMap<StudentCreateDTO, Student>().ReverseMap();
+        //CreateMap<StudentUpdateDTO, Student>().ReverseMap();
+        CreateMap<Student, StudentCreateDTO>().ReverseMap();
+        CreateMap<Student, StudentUpdateDTO>().ReverseMap();
         CreateMap<StudentSubject, StudentSubjectDTO>()
             .ForMember(dest => dest.SubjectName, opt => opt.MapFrom(src => src.Subject.Name));
 

@@ -58,7 +58,7 @@ namespace API.Migrations
                             Email = "alice.smith@example.com",
                             FirstName = "Alice",
                             LastName = "Smith",
-                            PhoneNumber = "555-1234",
+                            PhoneNumber = "+998901234567",
                             StudentRegNumber = "STU10001"
                         },
                         new
@@ -68,7 +68,7 @@ namespace API.Migrations
                             Email = "bob.johnson@example.com",
                             FirstName = "Bob",
                             LastName = "Johnson",
-                            PhoneNumber = "555-5678",
+                            PhoneNumber = "+998901234568",
                             StudentRegNumber = "STU10002"
                         },
                         new
@@ -78,7 +78,7 @@ namespace API.Migrations
                             Email = "charlie.brown@example.com",
                             FirstName = "Charlie",
                             LastName = "Brown",
-                            PhoneNumber = "555-8765",
+                            PhoneNumber = "+998901234569",
                             StudentRegNumber = "STU10003"
                         },
                         new
@@ -88,7 +88,7 @@ namespace API.Migrations
                             Email = "diana.prince@example.com",
                             FirstName = "Diana",
                             LastName = "Prince",
-                            PhoneNumber = "555-9999",
+                            PhoneNumber = "+998901234570",
                             StudentRegNumber = "STU10004"
                         },
                         new
@@ -98,7 +98,7 @@ namespace API.Migrations
                             Email = "eva.green@example.com",
                             FirstName = "Eva",
                             LastName = "Green",
-                            PhoneNumber = "555-1122",
+                            PhoneNumber = "+998901234571",
                             StudentRegNumber = "STU10005"
                         },
                         new
@@ -108,7 +108,7 @@ namespace API.Migrations
                             Email = "frank.moore@example.com",
                             FirstName = "Frank",
                             LastName = "Moore",
-                            PhoneNumber = "555-2233",
+                            PhoneNumber = "+998901234572",
                             StudentRegNumber = "STU10006"
                         },
                         new
@@ -118,7 +118,7 @@ namespace API.Migrations
                             Email = "grace.lee@example.com",
                             FirstName = "Grace",
                             LastName = "Lee",
-                            PhoneNumber = "555-3344",
+                            PhoneNumber = "+998901234573",
                             StudentRegNumber = "STU10007"
                         },
                         new
@@ -128,7 +128,7 @@ namespace API.Migrations
                             Email = "hannah.wilson@example.com",
                             FirstName = "Hannah",
                             LastName = "Wilson",
-                            PhoneNumber = "555-4455",
+                            PhoneNumber = "+998901234574",
                             StudentRegNumber = "STU10008"
                         },
                         new
@@ -138,7 +138,7 @@ namespace API.Migrations
                             Email = "ian.taylor@example.com",
                             FirstName = "Ian",
                             LastName = "Taylor",
-                            PhoneNumber = "555-5566",
+                            PhoneNumber = "+998901234575",
                             StudentRegNumber = "STU10009"
                         },
                         new
@@ -148,8 +148,208 @@ namespace API.Migrations
                             Email = "jasmine.anderson@example.com",
                             FirstName = "Jasmine",
                             LastName = "Anderson",
-                            PhoneNumber = "555-6677",
+                            PhoneNumber = "+998901234576",
                             StudentRegNumber = "STU10010"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            BirthDate = new DateTime(2001, 7, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "kevin.white@example.com",
+                            FirstName = "Kevin",
+                            LastName = "White",
+                            PhoneNumber = "+998901234577",
+                            StudentRegNumber = "STU10011"
+                        },
+                        new
+                        {
+                            Id = 12,
+                            BirthDate = new DateTime(2000, 8, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "laura.harris@example.com",
+                            FirstName = "Laura",
+                            LastName = "Harris",
+                            PhoneNumber = "+998901234578",
+                            StudentRegNumber = "STU10012"
+                        },
+                        new
+                        {
+                            Id = 13,
+                            BirthDate = new DateTime(1999, 12, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "michael.clark@example.com",
+                            FirstName = "Michael",
+                            LastName = "Clark",
+                            PhoneNumber = "+998901234579",
+                            StudentRegNumber = "STU10013"
+                        },
+                        new
+                        {
+                            Id = 14,
+                            BirthDate = new DateTime(2002, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "natalie.martinez@example.com",
+                            FirstName = "Natalie",
+                            LastName = "Martinez",
+                            PhoneNumber = "+998901234580",
+                            StudentRegNumber = "STU10014"
+                        },
+                        new
+                        {
+                            Id = 15,
+                            BirthDate = new DateTime(2003, 3, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "oscar.garcia@example.com",
+                            FirstName = "Oscar",
+                            LastName = "Garcia",
+                            PhoneNumber = "+998901234581",
+                            StudentRegNumber = "STU10015"
+                        },
+                        new
+                        {
+                            Id = 16,
+                            BirthDate = new DateTime(2004, 4, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "paul.rodriguez@example.com",
+                            FirstName = "Paul",
+                            LastName = "Rodriguez",
+                            PhoneNumber = "+998901234582",
+                            StudentRegNumber = "STU10016"
+                        },
+                        new
+                        {
+                            Id = 17,
+                            BirthDate = new DateTime(2005, 5, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "quinn.lewis@example.com",
+                            FirstName = "Quinn",
+                            LastName = "Lewis",
+                            PhoneNumber = "+998901234583",
+                            StudentRegNumber = "STU10017"
+                        },
+                        new
+                        {
+                            Id = 18,
+                            BirthDate = new DateTime(2006, 6, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "rachel.walker@example.com",
+                            FirstName = "Rachel",
+                            LastName = "Walker",
+                            PhoneNumber = "+998901234584",
+                            StudentRegNumber = "STU10018"
+                        },
+                        new
+                        {
+                            Id = 19,
+                            BirthDate = new DateTime(2007, 7, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "samuel.hall@example.com",
+                            FirstName = "Samuel",
+                            LastName = "Hall",
+                            PhoneNumber = "+998901234585",
+                            StudentRegNumber = "STU10019"
+                        },
+                        new
+                        {
+                            Id = 20,
+                            BirthDate = new DateTime(2008, 8, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "tina.allen@example.com",
+                            FirstName = "Tina",
+                            LastName = "Allen",
+                            PhoneNumber = "+998901234586",
+                            StudentRegNumber = "STU10020"
+                        },
+                        new
+                        {
+                            Id = 21,
+                            BirthDate = new DateTime(2001, 9, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "uma.young@example.com",
+                            FirstName = "Uma",
+                            LastName = "Young",
+                            PhoneNumber = "+998901234587",
+                            StudentRegNumber = "STU10021"
+                        },
+                        new
+                        {
+                            Id = 22,
+                            BirthDate = new DateTime(2000, 10, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "victor.king@example.com",
+                            FirstName = "Victor",
+                            LastName = "King",
+                            PhoneNumber = "+998901234588",
+                            StudentRegNumber = "STU10022"
+                        },
+                        new
+                        {
+                            Id = 23,
+                            BirthDate = new DateTime(1999, 11, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "wendy.wright@example.com",
+                            FirstName = "Wendy",
+                            LastName = "Wright",
+                            PhoneNumber = "+998901234589",
+                            StudentRegNumber = "STU10023"
+                        },
+                        new
+                        {
+                            Id = 24,
+                            BirthDate = new DateTime(2002, 12, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "xavier.lopez@example.com",
+                            FirstName = "Xavier",
+                            LastName = "Lopez",
+                            PhoneNumber = "+998901234590",
+                            StudentRegNumber = "STU10024"
+                        },
+                        new
+                        {
+                            Id = 25,
+                            BirthDate = new DateTime(2003, 1, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "yasmin.hill@example.com",
+                            FirstName = "Yasmin",
+                            LastName = "Hill",
+                            PhoneNumber = "+998901234591",
+                            StudentRegNumber = "STU10025"
+                        },
+                        new
+                        {
+                            Id = 26,
+                            BirthDate = new DateTime(2004, 2, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "zachary.scott@example.com",
+                            FirstName = "Zachary",
+                            LastName = "Scott",
+                            PhoneNumber = "+998901234592",
+                            StudentRegNumber = "STU10026"
+                        },
+                        new
+                        {
+                            Id = 27,
+                            BirthDate = new DateTime(2005, 3, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "amelia.adams@example.com",
+                            FirstName = "Amelia",
+                            LastName = "Adams",
+                            PhoneNumber = "+998901234593",
+                            StudentRegNumber = "STU10027"
+                        },
+                        new
+                        {
+                            Id = 28,
+                            BirthDate = new DateTime(2006, 4, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "brian.nelson@example.com",
+                            FirstName = "Brian",
+                            LastName = "Nelson",
+                            PhoneNumber = "+998901234594",
+                            StudentRegNumber = "STU10028"
+                        },
+                        new
+                        {
+                            Id = 29,
+                            BirthDate = new DateTime(2007, 5, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "chloe.carter@example.com",
+                            FirstName = "Chloe",
+                            LastName = "Carter",
+                            PhoneNumber = "+998901234595",
+                            StudentRegNumber = "STU10029"
+                        },
+                        new
+                        {
+                            Id = 30,
+                            BirthDate = new DateTime(2008, 6, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "daniel.mitchell@example.com",
+                            FirstName = "Daniel",
+                            LastName = "Mitchell",
+                            PhoneNumber = "+998901234596",
+                            StudentRegNumber = "STU10030"
                         });
                 });
 
@@ -181,7 +381,13 @@ namespace API.Migrations
                         {
                             StudentId = 1,
                             SubjectId = 2,
-                            Grade = 90.0
+                            Grade = 98.0
+                        },
+                        new
+                        {
+                            StudentId = 1,
+                            SubjectId = 3,
+                            Grade = 88.0
                         },
                         new
                         {
@@ -197,6 +403,12 @@ namespace API.Migrations
                         },
                         new
                         {
+                            StudentId = 2,
+                            SubjectId = 4,
+                            Grade = 99.0
+                        },
+                        new
+                        {
                             StudentId = 3,
                             SubjectId = 2,
                             Grade = 88.0
@@ -205,7 +417,13 @@ namespace API.Migrations
                         {
                             StudentId = 3,
                             SubjectId = 4,
-                            Grade = 91.0
+                            Grade = 98.0
+                        },
+                        new
+                        {
+                            StudentId = 3,
+                            SubjectId = 5,
+                            Grade = 77.0
                         },
                         new
                         {
@@ -217,13 +435,19 @@ namespace API.Migrations
                         {
                             StudentId = 4,
                             SubjectId = 6,
-                            Grade = 85.0
+                            Grade = 100.0
+                        },
+                        new
+                        {
+                            StudentId = 4,
+                            SubjectId = 2,
+                            Grade = 80.0
                         },
                         new
                         {
                             StudentId = 5,
                             SubjectId = 7,
-                            Grade = 92.0
+                            Grade = 99.0
                         },
                         new
                         {
@@ -233,6 +457,12 @@ namespace API.Migrations
                         },
                         new
                         {
+                            StudentId = 5,
+                            SubjectId = 3,
+                            Grade = 86.0
+                        },
+                        new
+                        {
                             StudentId = 6,
                             SubjectId = 3,
                             Grade = 82.0
@@ -245,15 +475,27 @@ namespace API.Migrations
                         },
                         new
                         {
+                            StudentId = 6,
+                            SubjectId = 4,
+                            Grade = 99.0
+                        },
+                        new
+                        {
                             StudentId = 7,
                             SubjectId = 4,
-                            Grade = 91.0
+                            Grade = 98.0
                         },
                         new
                         {
                             StudentId = 7,
                             SubjectId = 5,
                             Grade = 75.0
+                        },
+                        new
+                        {
+                            StudentId = 7,
+                            SubjectId = 6,
+                            Grade = 87.0
                         },
                         new
                         {
@@ -265,19 +507,31 @@ namespace API.Migrations
                         {
                             StudentId = 8,
                             SubjectId = 2,
-                            Grade = 90.0
+                            Grade = 100.0
+                        },
+                        new
+                        {
+                            StudentId = 8,
+                            SubjectId = 5,
+                            Grade = 77.0
                         },
                         new
                         {
                             StudentId = 9,
                             SubjectId = 1,
-                            Grade = 78.0
+                            Grade = 98.0
                         },
                         new
                         {
                             StudentId = 9,
                             SubjectId = 3,
                             Grade = 82.0
+                        },
+                        new
+                        {
+                            StudentId = 9,
+                            SubjectId = 4,
+                            Grade = 84.0
                         },
                         new
                         {
@@ -289,7 +543,373 @@ namespace API.Migrations
                         {
                             StudentId = 10,
                             SubjectId = 2,
+                            Grade = 98.0
+                        },
+                        new
+                        {
+                            StudentId = 10,
+                            SubjectId = 5,
+                            Grade = 79.0
+                        },
+                        new
+                        {
+                            StudentId = 11,
+                            SubjectId = 6,
+                            Grade = 85.0
+                        },
+                        new
+                        {
+                            StudentId = 11,
+                            SubjectId = 1,
+                            Grade = 99.0
+                        },
+                        new
+                        {
+                            StudentId = 11,
+                            SubjectId = 3,
+                            Grade = 83.0
+                        },
+                        new
+                        {
+                            StudentId = 12,
+                            SubjectId = 2,
+                            Grade = 99.0
+                        },
+                        new
+                        {
+                            StudentId = 12,
+                            SubjectId = 5,
+                            Grade = 84.0
+                        },
+                        new
+                        {
+                            StudentId = 12,
+                            SubjectId = 4,
+                            Grade = 77.0
+                        },
+                        new
+                        {
+                            StudentId = 13,
+                            SubjectId = 1,
+                            Grade = 98.0
+                        },
+                        new
+                        {
+                            StudentId = 13,
+                            SubjectId = 7,
+                            Grade = 93.0
+                        },
+                        new
+                        {
+                            StudentId = 13,
+                            SubjectId = 8,
+                            Grade = 79.0
+                        },
+                        new
+                        {
+                            StudentId = 14,
+                            SubjectId = 4,
+                            Grade = 85.0
+                        },
+                        new
+                        {
+                            StudentId = 14,
+                            SubjectId = 3,
+                            Grade = 87.0
+                        },
+                        new
+                        {
+                            StudentId = 14,
+                            SubjectId = 6,
+                            Grade = 98.0
+                        },
+                        new
+                        {
+                            StudentId = 15,
+                            SubjectId = 2,
+                            Grade = 82.0
+                        },
+                        new
+                        {
+                            StudentId = 15,
+                            SubjectId = 1,
+                            Grade = 87.5
+                        },
+                        new
+                        {
+                            StudentId = 15,
+                            SubjectId = 5,
+                            Grade = 78.0
+                        },
+                        new
+                        {
+                            StudentId = 16,
+                            SubjectId = 3,
+                            Grade = 80.0
+                        },
+                        new
+                        {
+                            StudentId = 16,
+                            SubjectId = 4,
+                            Grade = 97.200000000000003
+                        },
+                        new
+                        {
+                            StudentId = 16,
+                            SubjectId = 2,
+                            Grade = 84.0
+                        },
+                        new
+                        {
+                            StudentId = 17,
+                            SubjectId = 6,
+                            Grade = 99.099999999999994
+                        },
+                        new
+                        {
+                            StudentId = 17,
+                            SubjectId = 7,
+                            Grade = 89.0
+                        },
+                        new
+                        {
+                            StudentId = 17,
+                            SubjectId = 3,
+                            Grade = 91.0
+                        },
+                        new
+                        {
+                            StudentId = 18,
+                            SubjectId = 8,
+                            Grade = 76.0
+                        },
+                        new
+                        {
+                            StudentId = 18,
+                            SubjectId = 4,
+                            Grade = 100.0
+                        },
+                        new
+                        {
+                            StudentId = 18,
+                            SubjectId = 2,
+                            Grade = 87.0
+                        },
+                        new
+                        {
+                            StudentId = 19,
+                            SubjectId = 5,
+                            Grade = 90.0
+                        },
+                        new
+                        {
+                            StudentId = 19,
+                            SubjectId = 1,
+                            Grade = 79.0
+                        },
+                        new
+                        {
+                            StudentId = 19,
+                            SubjectId = 6,
+                            Grade = 98.099999999999994
+                        },
+                        new
+                        {
+                            StudentId = 20,
+                            SubjectId = 3,
+                            Grade = 81.0
+                        },
+                        new
+                        {
+                            StudentId = 20,
+                            SubjectId = 7,
+                            Grade = 85.0
+                        },
+                        new
+                        {
+                            StudentId = 20,
+                            SubjectId = 8,
+                            Grade = 99.0
+                        },
+                        new
+                        {
+                            StudentId = 21,
+                            SubjectId = 6,
+                            Grade = 90.0
+                        },
+                        new
+                        {
+                            StudentId = 21,
+                            SubjectId = 4,
+                            Grade = 99.0
+                        },
+                        new
+                        {
+                            StudentId = 21,
+                            SubjectId = 2,
+                            Grade = 87.0
+                        },
+                        new
+                        {
+                            StudentId = 22,
+                            SubjectId = 3,
+                            Grade = 91.0
+                        },
+                        new
+                        {
+                            StudentId = 22,
+                            SubjectId = 8,
+                            Grade = 79.0
+                        },
+                        new
+                        {
+                            StudentId = 22,
+                            SubjectId = 7,
+                            Grade = 98.0
+                        },
+                        new
+                        {
+                            StudentId = 23,
+                            SubjectId = 5,
+                            Grade = 99.0
+                        },
+                        new
+                        {
+                            StudentId = 23,
+                            SubjectId = 1,
+                            Grade = 89.0
+                        },
+                        new
+                        {
+                            StudentId = 23,
+                            SubjectId = 4,
+                            Grade = 80.0
+                        },
+                        new
+                        {
+                            StudentId = 24,
+                            SubjectId = 2,
+                            Grade = 97.900000000000006
+                        },
+                        new
+                        {
+                            StudentId = 24,
+                            SubjectId = 3,
+                            Grade = 78.0
+                        },
+                        new
+                        {
+                            StudentId = 24,
+                            SubjectId = 6,
+                            Grade = 85.0
+                        },
+                        new
+                        {
+                            StudentId = 25,
+                            SubjectId = 8,
+                            Grade = 80.0
+                        },
+                        new
+                        {
+                            StudentId = 25,
+                            SubjectId = 7,
+                            Grade = 99.0
+                        },
+                        new
+                        {
+                            StudentId = 25,
+                            SubjectId = 5,
+                            Grade = 84.0
+                        },
+                        new
+                        {
+                            StudentId = 26,
+                            SubjectId = 1,
+                            Grade = 90.0
+                        },
+                        new
+                        {
+                            StudentId = 26,
+                            SubjectId = 3,
+                            Grade = 98.0
+                        },
+                        new
+                        {
+                            StudentId = 26,
+                            SubjectId = 6,
+                            Grade = 85.0
+                        },
+                        new
+                        {
+                            StudentId = 27,
+                            SubjectId = 4,
+                            Grade = 87.0
+                        },
+                        new
+                        {
+                            StudentId = 27,
+                            SubjectId = 2,
+                            Grade = 98.0
+                        },
+                        new
+                        {
+                            StudentId = 27,
+                            SubjectId = 1,
+                            Grade = 79.0
+                        },
+                        new
+                        {
+                            StudentId = 28,
+                            SubjectId = 7,
+                            Grade = 92.0
+                        },
+                        new
+                        {
+                            StudentId = 28,
+                            SubjectId = 5,
+                            Grade = 99.0
+                        },
+                        new
+                        {
+                            StudentId = 28,
+                            SubjectId = 8,
+                            Grade = 81.0
+                        },
+                        new
+                        {
+                            StudentId = 29,
+                            SubjectId = 3,
+                            Grade = 83.0
+                        },
+                        new
+                        {
+                            StudentId = 29,
+                            SubjectId = 4,
+                            Grade = 85.0
+                        },
+                        new
+                        {
+                            StudentId = 29,
+                            SubjectId = 2,
+                            Grade = 100.0
+                        },
+                        new
+                        {
+                            StudentId = 30,
+                            SubjectId = 1,
                             Grade = 88.0
+                        },
+                        new
+                        {
+                            StudentId = 30,
+                            SubjectId = 5,
+                            Grade = 79.0
+                        },
+                        new
+                        {
+                            StudentId = 30,
+                            SubjectId = 6,
+                            Grade = 99.599999999999994
                         });
                 });
 
@@ -397,25 +1017,25 @@ namespace API.Migrations
                             Email = "john.doe@example.com",
                             FirstName = "John",
                             LastName = "Doe",
-                            PhoneNumber = "555-7777"
+                            PhoneNumber = "+998901234567"
                         },
                         new
                         {
                             Id = 2,
-                            BirthDate = new DateTime(1980, 9, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BirthDate = new DateTime(1940, 9, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "jane.smith@example.com",
                             FirstName = "Jane",
                             LastName = "Smith",
-                            PhoneNumber = "555-8888"
+                            PhoneNumber = "+998912345678"
                         },
                         new
                         {
                             Id = 3,
-                            BirthDate = new DateTime(1985, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BirthDate = new DateTime(1955, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "robert.johnson@example.com",
                             FirstName = "Robert",
                             LastName = "Johnson",
-                            PhoneNumber = "555-9999"
+                            PhoneNumber = "+998933456789"
                         },
                         new
                         {
@@ -424,7 +1044,7 @@ namespace API.Migrations
                             Email = "emily.davis@example.com",
                             FirstName = "Emily",
                             LastName = "Davis",
-                            PhoneNumber = "555-1010"
+                            PhoneNumber = "+998944567890"
                         },
                         new
                         {
@@ -433,7 +1053,7 @@ namespace API.Migrations
                             Email = "michael.wilson@example.com",
                             FirstName = "Michael",
                             LastName = "Wilson",
-                            PhoneNumber = "555-2020"
+                            PhoneNumber = "+998955678901"
                         },
                         new
                         {
@@ -442,7 +1062,7 @@ namespace API.Migrations
                             Email = "sarah.taylor@example.com",
                             FirstName = "Sarah",
                             LastName = "Taylor",
-                            PhoneNumber = "555-3030"
+                            PhoneNumber = "+998966789012"
                         },
                         new
                         {
@@ -451,7 +1071,7 @@ namespace API.Migrations
                             Email = "david.brown@example.com",
                             FirstName = "David",
                             LastName = "Brown",
-                            PhoneNumber = "555-4040"
+                            PhoneNumber = "+998977890123"
                         },
                         new
                         {
@@ -460,7 +1080,7 @@ namespace API.Migrations
                             Email = "laura.miller@example.com",
                             FirstName = "Laura",
                             LastName = "Miller",
-                            PhoneNumber = "555-5050"
+                            PhoneNumber = "+998988901234"
                         },
                         new
                         {
@@ -469,7 +1089,7 @@ namespace API.Migrations
                             Email = "james.wilson@example.com",
                             FirstName = "James",
                             LastName = "Wilson",
-                            PhoneNumber = "555-6060"
+                            PhoneNumber = "+998999012345"
                         },
                         new
                         {
@@ -478,7 +1098,7 @@ namespace API.Migrations
                             Email = "olivia.moore@example.com",
                             FirstName = "Olivia",
                             LastName = "Moore",
-                            PhoneNumber = "555-7070"
+                            PhoneNumber = "+998901234567"
                         });
                 });
 
